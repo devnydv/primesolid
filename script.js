@@ -377,3 +377,24 @@ document.querySelectorAll('.service-card, .feature, .contact-card').forEach(el =
 console.log('%c🔧 Prime Solid Contracting & General Maintenance', 'font-size: 20px; font-weight: bold; color: #ff6b35;');
 console.log('%cYour trusted partner for building maintenance in Abu Dhabi', 'font-size: 14px; color: #004e89;');
 console.log('%cLicense No: CN-4306575', 'font-size: 12px; color: #666;');
+
+// FAQ Accordion Functionality
+const faqItems = document.querySelectorAll('.faq-item');
+
+faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    
+    question.addEventListener('click', () => {
+        const isActive = item.classList.contains('active');
+        
+        // Close all FAQ items
+        faqItems.forEach(faq => {
+            faq.classList.remove('active');
+        });
+        
+        // Open clicked item if it wasn't active
+        if (!isActive) {
+            item.classList.add('active');
+        }
+    });
+});

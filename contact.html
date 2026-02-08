@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Prime Solid Contracting & General Maintenance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <i class="fas fa-tools"></i>
+                <span>PRIME SOLID</span>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link active">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header__overlay"></div>
+        <div class="container">
+            <h1 class="page-header__title">Contact Us</h1>
+            <p class="page-header__subtitle">Get in Touch With Our Team</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span><i class="fas fa-chevron-right"></i></span>
+                <span>Contact</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Reach Out</span>
+                <h2 class="section-title">We're Here to Help</h2>
+                <p class="section-description">Have a question or need our services? Contact us through any of the following channels</p>
+            </div>
+
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="contact-info-card__icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p class="contact-info-card__detail">
+                        <a href="tel:+971501984302">+971 50 198 4302</a>
+                    </p>
+                    <p class="contact-info-card__text">Available 24/7 for emergencies</p>
+                    <p class="contact-info-card__hours">Mon - Sat: 8:00 AM - 8:00 PM</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-info-card__icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p class="contact-info-card__detail">
+                        <a href="mailto:bimalapillai@gmail.com">bimalapillai@gmail.com</a>
+                    </p>
+                    <p class="contact-info-card__text">Send us your queries anytime</p>
+                    <p class="contact-info-card__hours">Response within 24 hours</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-info-card__icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p class="contact-info-card__detail">Mussafah</p>
+                    <p class="contact-info-card__text">Abu Dhabi, United Arab Emirates</p>
+                    <p class="contact-info-card__hours">By appointment</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-info-card__icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p class="contact-info-card__detail">
+                        <a href="https://wa.me/971501984302" target="_blank">+971 50 198 4302</a>
+                    </p>
+                    <p class="contact-info-card__text">Quick chat support</p>
+                    <p class="contact-info-card__hours">Fast response guaranteed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-form-wrapper">
+                <div class="contact-form-info">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form and our team will get back to you within 24 hours.</p>
+                    
+                    <div class="contact-form-features">
+                        <div class="form-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Free consultation and quote</span>
+                        </div>
+                        <div class="form-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Professional advice</span>
+                        </div>
+                        <div class="form-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Quick response time</span>
+                        </div>
+                        <div class="form-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>No obligation quote</span>
+                        </div>
+                    </div>
+
+                    <div class="emergency-notice">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <div>
+                            <h4>Emergency Services?</h4>
+                            <p>For urgent maintenance issues, call us directly at <a href="tel:+971501984302">+971 50 198 4302</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form-main" id="contactFormMain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Full Name *</label>
+                                <input type="text" id="fullName" placeholder="Enter your full name" required>
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="form-group">
+                                <label for="emailAddress">Email Address *</label>
+                                <input type="email" id="emailAddress" placeholder="your.email@example.com" required>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phoneNumber">Phone Number *</label>
+                                <input type="tel" id="phoneNumber" placeholder="+971 XX XXX XXXX" required>
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="form-group">
+                                <label for="serviceType">Service Required *</label>
+                                <select id="serviceType" required>
+                                    <option value="">Select a service</option>
+                                    <option value="ac">AC Installation & Repair</option>
+                                    <option value="plumbing">Plumbing Works</option>
+                                    <option value="electrical">Electrical Works</option>
+                                    <option value="painting">Painting Services</option>
+                                    <option value="carpentry">Carpentry Works</option>
+                                    <option value="maintenance">Building Maintenance</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <i class="fas fa-tools"></i>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="propertyType">Property Type</label>
+                            <select id="propertyType">
+                                <option value="">Select property type</option>
+                                <option value="residential">Residential - Villa</option>
+                                <option value="apartment">Residential - Apartment</option>
+                                <option value="commercial">Commercial Office</option>
+                                <option value="retail">Retail Space</option>
+                                <option value="warehouse">Warehouse/Industrial</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <i class="fas fa-building"></i>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="messageText">Your Message *</label>
+                            <textarea id="messageText" rows="6" placeholder="Please describe your requirements in detail..." required></textarea>
+                            <i class="fas fa-comment"></i>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="urgentService">
+                                <span>This is an urgent request</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+
+                        <p class="form-privacy">We respect your privacy. Your information will not be shared with third parties.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Location</span>
+                <h2 class="section-title">Find Us in Abu Dhabi</h2>
+            </div>
+            
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115681.06039027785!2d54.37005768461914!3d24.476447500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e440f723ef2b9%3A0xc7cc2e9341971108!2sMussafah%20-%20Abu%20Dhabi!5e0!3m2!1sen!2sae!4v1234567890123!5m2!1sen!2sae" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0; border-radius: 15px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div class="location-details">
+                <div class="location-detail-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <div>
+                        <h4>Service Areas</h4>
+                        <p>We serve all areas of Abu Dhabi including Mussafah, Al Raha, Khalifa City, Al Reef, and surrounding areas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Working Hours Section -->
+    <section class="working-hours-section">
+        <div class="container">
+            <div class="working-hours-content">
+                <div class="working-hours-info">
+                    <h2>Business Hours</h2>
+                    <p>We're available to serve you during the following hours:</p>
+                </div>
+                
+                <div class="working-hours-grid">
+                    <div class="hours-card">
+                        <div class="hours-card__day">Monday - Friday</div>
+                        <div class="hours-card__time">8:00 AM - 8:00 PM</div>
+                    </div>
+                    <div class="hours-card">
+                        <div class="hours-card__day">Saturday</div>
+                        <div class="hours-card__time">8:00 AM - 6:00 PM</div>
+                    </div>
+                    <div class="hours-card">
+                        <div class="hours-card__day">Sunday</div>
+                        <div class="hours-card__time">By Appointment</div>
+                    </div>
+                    <div class="hours-card emergency">
+                        <div class="hours-card__day">Emergency Services</div>
+                        <div class="hours-card__time">24/7 Available</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Common Questions</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer emergency services?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We provide 24/7 emergency services for urgent maintenance issues. Call us anytime at +971 50 198 4302.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What areas do you serve?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We serve all areas across Abu Dhabi including Mussafah, Al Raha, Khalifa City, Al Reef, Yas Island, and surrounding areas.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How quickly can you respond to service requests?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For regular requests, we typically schedule within 24-48 hours. Emergency services receive immediate attention with response times of 2-4 hours.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you provide free quotes?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We provide free, no-obligation quotes for all our services. Contact us with your requirements and we'll give you a detailed estimate.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Are you licensed and insured?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we are fully licensed by Abu Dhabi authorities (License No: CN-4306575) and carry comprehensive insurance coverage.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer maintenance contracts?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer flexible Annual Maintenance Contracts (AMC) for residential and commercial properties. Contact us for customized packages.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <i class="fas fa-tools"></i>
+                        <span>PRIME SOLID</span>
+                    </div>
+                    <p class="footer__description">
+                        Your trusted partner for all building maintenance and contracting needs in Abu Dhabi.
+                    </p>
+                    <div class="footer__license">
+                        <p><strong>License No:</strong> CN-4306575</p>
+                        <p><strong>Unified License:</strong> 501-2022-100196477</p>
+                    </div>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Our Services</h4>
+                    <ul class="footer__links">
+                        <li><a href="services.html#ac-services">AC Installation & Repair</a></li>
+                        <li><a href="services.html#plumbing-services">Plumbing Works</a></li>
+                        <li><a href="services.html#electrical-services">Electrical Services</a></li>
+                        <li><a href="services.html#painting-services">Painting & Decoration</a></li>
+                        <li><a href="services.html#carpentry-services">Carpentry Works</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer__contact">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+971501984302">+971 50 198 4302</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:bimalapillai@gmail.com">bimalapillai@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Mussafah, Abu Dhabi, UAE</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2026 Prime Solid Contracting & General Maintenance. All rights reserved.</p>
+                <p>Established 2022 | Licensed & Certified in Abu Dhabi</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
