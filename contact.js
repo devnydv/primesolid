@@ -453,7 +453,7 @@ function buildMessage(data) {
 📝 Message:
 ${data.message}
 ==========================================
-Sent via PrimeSolid.ae contact form`;
+Sent via PrimeSolid website contact form`;
 }
 
 /* ============================================================
@@ -579,4 +579,5 @@ if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
 } else {
     init();
+
 }
